@@ -17,9 +17,9 @@
 <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <link href="http://cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
 <!-- 收藏用logo图标 -->
-<link rel="bookmark" type="image/x-icon" href="favicon.ico" />
+<link rel="bookmark" type="image/x-icon" href="images/header2.jpeg" />
 <!-- 网站显示页logo图标 -->
-<link rel="shortcut icon" href="favicon.ico">
+<link rel="shortcut icon" href="images/header2.jpeg">
 
 <head>
     <title>Bingnan Chen's Homepage</title>
@@ -127,186 +127,78 @@
                     <h2>Selected Projects</h2>
                 </header>
                 <!-- ************************************************************* -->
-                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                    <!-- ************************************************************* -->
-                    <div class="panel">
-                        <div class="fir_panel-heading" role="tab" id="headingOne">
-                            <h4 class="fir_panel-title">
-                                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    Research on cross-site scripting (XSS) based on taint tracking for Chromium v8
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-                            <div class="fir_panel-body">
-                                <p> Our goal is to record all of such listener functions along each data flow, and then regard them as constraints to put into a constraint solver. The constraint solver is responsible for giving a solution under all the constraints, and we can use the solution to generate exploits. Then we get relevant information about the exploit by testing different websites, and then use this information to suggest possible methods to reduce web application vulnerability.<br>
-                                    <a href="https://github.com/ChampionNan/Taint_process" target="_blank">GitHub Repository (Code implementation of taint flow processing) </a>
+                <ul class="features">
+                    <li>
+                        <span class="icon solid major style1 fa-code"></span>
+                        <h3>Research on cross-site scripting (XSS) based on taint tracking for Chromium v8</h3>
+                        <div class="fir_panel-body">
+                            <p> Our goal is to record all of such listener functions along each data flow, and then regard them as constraints to put into a constraint solver. The constraint solver is responsible for giving a solution under all the constraints, and we can use the solution to generate exploits. Then we get relevant information about the exploit by testing different websites, and then use this information to suggest possible methods to reduce web application vulnerability.<br>
+                                <a href="https://github.com/ChampionNan/Taint_process" target="_blank">GitHub Repository (Code implementation of taint flow processing) </a>
+                                <p>
+                                    <a href="https://github.com/ChampionNan/JSSANChecker" target="_blank">Seek for sanitizations of JS in Chromium</a>
                                 </p>
-                            </div>
+                            </p>
                         </div>
-                    </div>
-                    <!-- ************************************************************* -->
-                    <div class="panel">
-                        <div class="fir_panel-heading" role="tab" id="headingTwo">
-                            <h4 class="fir_panel-title">
-                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    Yoda: A Video analytic pipeline Benchmark
-                                </a>
-                            </h4>
+                    </li>
+                    <li>
+                        <span class="icon major style3 fa-copy"></span>
+                        <h3>Yoda: A Video analytic pipeline Benchmark</h3>
+                        <div class="fir_panel-body">
+                            <p>Our goal is to implement a benchmark able to understand what and how video content features affect video analytic pipelines performance, to understand relative strengths & weaknesses between two video analytic pipelines in a range of settings and efficiently estimate video analytic pipelines performance on new videos. <br>
+                                My major work is about to implement an interface for videostorm, a pipeline proposed in NSDI and implement an interface for awstream, a pipeline proposed in sigcomm.
+                                <a href="https://github.com/ChampionNan/Yoda" target="_blank">GitHub Repository </a>
+                            </p>
                         </div>
-                        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-                            <div class="fir_panel-body">
-                                <p>Our goal is to implement a benchmark able to understand what and how video content features affect video analytic pipelines performance, to understand relative strengths & weaknesses between two video analytic pipelines in a range of settings and efficiently estimate video analytic pipelines performance on new videos. <br>
-                                    <a href="https://github.com/" target="_blank">GitHub Repository </a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- ************************************************************* -->
-                    <div class="panel">
-                        <div class="fir_panel-heading" role="tab" id="headingThree">
-                            <h4 class="fir_panel-title">
-                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    2018 CCF Big Data&Computational Intelligence Contest (BDCI) Competition
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-                            <div class="fir_panel-body">
-                                <p> Use element-ui(desktop component library of vue 2.0) and django to realize. My work is mainly focused on database design, frontend and backend data interactions and backend api design. -- language: python & html & css & javascript (Supervisor: Prof. Jin Li) <br>
-                                    <a href="https://github.com/ChampionNan/Online_Interview_System" target="_blank">GitHub Repository </a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- ************************************************************* -->
-                    <div class="panel">
-                        <div class="fir_panel-heading" role="tab" id="headingFour">
-                            <h4 class="fir_panel-title">
-                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                    Bank Database Manage Application
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-                            <div class="fir_panel-body">
-                                <p> Implemented a full stack web-database bank database management application system.
-                                    Utilized Vue.js to implement web front-end user interface, security check and statistical plotting.
-                                    Deployed Flask to implement back-end service, including query routing, database interface operating
-                                    and some application-specific numerical constrain implementing. Applied Origin 18.3 as database management system.
-                                    Built a user requirement fulfilled database scheme design, user friendly interface and robust service supporting. (Supervisor: Prof. Peiquan Jin) <br>
-                                    <a href="https://github.com/OrdinaryCrazy/BankDatabaseApplication" target="_blank">GitHub Repository </a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- ************************************************************* -->
-                    <div class="panel">
-                        <div class="fir_panel-heading" role="tab" id="headingFive">
-                            <h4 class="fir_panel-title">
-                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                    Erdös co-author network mining
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
-                            <div class="fir_panel-body">
-                                <p> Implemented influential analysis algorithms to find important authors, i.e. influential nodes, in co-author graph.
-                                    Utilized spectral clustering algorithms to analyze community structure in Erdös co-author network. (Supervisor: Prof. Linli Xu) <br>
-                                    <a href="https://github.com/OrdinaryCrazy/HomeworkInUSTC/tree/master/lab2/part2/code2" target="_blank">GitHub Repository </a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- ************************************************************* -->
-                    <div class="panel">
-                        <div class="fir_panel-heading" role="tab" id="headingSix">
-                            <h4 class="fir_panel-title">
-                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                                    DBWorld Search Engine
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
-                            <div class="fir_panel-body">
-                                <p> Built a web search engine for DBWorld website with a tomcat server in response to JSP query.
-                                    Implemented support to different types of query about DBWorld conferences’ location, due time and so on.
-                                    Programmed entity recognition algorithm to improve recall of retrieve results and regular refreshment of indexes. (Supervisor: Prof. Peiquan Jin) <br>
-                                    <a href="https://github.com/OrdinaryCrazy/HomeworkInUSTC/tree/master/DBWorldSearchEngin" target="_blank">GitHub Repository </a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- ************************************************************* -->
-                    <div class="panel">
-                        <div class="fir_panel-heading" role="tab" id="headingSeven">
-                            <h4 class="fir_panel-title">
-                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                                    User Portrait Analysis System Based on Sougou Search Engine History
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeven">
-                            <div class="fir_panel-body">
-                                <p> Analysed users’ attributes like age, sex, education and etc according to users’ search history on Sougou Search Engine. (Supervisor: Prof. Qi Liu) <br>
-                                    <!-- <a href="https://github.com/OrdinaryCrazy/BankDatabaseApplication" target="_blank">GitHub Repository </a> -->
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- ************************************************************* -->
-                    <div class="panel">
-                        <div class="fir_panel-heading" role="tab" id="headingEight">
-                            <h4 class="fir_panel-title">
-                                <a class="collapsed" rol="button" data-toggle="collapse" data-parent="#accordion" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-                                    RISC_V_32I CPU
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseEight" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingEight">
-                            <div class="fir_panel-body">
-                                <p> Course work implementing a RISC_V_32I architecture CPU with Cache and BranchPrediction in Verilog. (Supervisor: Prof. Xuehai Zhou) <br>
-                                    <a href="https://github.com/OrdinaryCrazy/RISC_V_32I" target="_blank">GitHub Repository </a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- ************************************************************* -->
-                    <div class="panel">
-                        <div class="fir_panel-heading" role="tab" id="headingNine">
-                            <h4 class="fir_panel-title">
-                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
-                                    Simple MIPS CPU
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseNine" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingNine">
-                            <div class="fir_panel-body">
-                                <p> Course work implementing a MIPS architecture CPU with Cache and BranchPrediction in Verilog. (Supervisor: Prof. Junxia ZHANG) <br>
-                                    <a href="https://github.com/OrdinaryCrazy/SimpleCPU" target="_blank">GitHub Repository </a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- ************************************************************* -->
-                    <div class="panel">
-                        <div class="fir_panel-heading" role="tab" id="headingTen">
-                            <h4 class="fir_panel-title">
-                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
-                                    C1 Language Compiler
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseTen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTen">
-                            <div class="fir_panel-body">
-                                <p> Built compiler system for C-like language – C1 language using LLVM & Antlr4. (Supervisor: Prof. Yu Zhang) <br>
-                                    <a href="https://github.com/OrdinaryCrazy/C1-Language-Compiler" target="_blank">GitHub Repository </a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- ************************************************************* -->
-                </div>
+                    </li>
+                    <li>
+                        <span class="icon major style5 fa-gem"></span>
+                        <h3>User Activity recognition and Identification through Wireless Backscattering</h3>
+                        <p>Our goal was to achieve accurate and non-intrusive user activity recognition and then user identification through battery-free wireless backscattering.
+                        </p>
+                        <a href="https://github.com/ChampionNan/Signal-Processing" target="_blank">GitHub Repository </a>
+                    </li>
+                    <li>
+                        <span class="icon major style5 fa-gem"></span>
+                        <h3>C-- Compiler</h3>
+                        <p>Our goal was to achieve accurate and non-intrusive user activity recognition and then user identification through battery-free wireless backscattering.
+                        </p>
+                        <a href="https://github.com/ChampionNan/Signal-Processing" target="_blank">GitHub Repository </a>
+                    </li>
+                    <li>
+                        <span class="icon major style5 fa-gem"></span>
+                        <h3>Summer exchange in Shanghai JiaoTong University(SJTU)</h3>
+                        <p>Built a translation machine, recognizing user voice and producing the translation.
+                        </p>
+                        <p>Integrated application of visual and sound, realizing face recognition, you-language learning, making decorations on human face,swap human face and position recognition. </p>
+                        <a href="https://github.com/ChampionNan/AI-interaction-in-sjtu" target="_blank">GitHub Repository </a>
+                    </li>
+                    <li>
+                        <span class="icon major style5 fa-gem"></span>
+                        <h3>Online Interview system</h3>
+                        <p>The project uses Vue as the front-end and django as the back-end to build an online user interview platform including collaborative whiteboard, code editor, chat dialog, etc.
+                        </p>
+                        <a href="https://github.com/ChampionNan/Online_Interview_System" target="_blank">GitHub Repository </a>
+                    </li>
+                    <li>
+                        <span class="icon major style5 fa-gem"></span>
+                        <h3>Bank Management system</h3>
+                        <p>The front end of the project uses Vue, and the back end uses Flask plus Mysql to implement a bank management system with customer management, account management loan management, and business statistics functions.
+                        </p>
+                        <a href="https://github.com/ChampionNan/Bank_Management_System" target="_blank">GitHub Repository </a>
+                    </li>
+                    <li>
+                        <span class="icon major style5 fa-gem"></span>
+                        <h3>RISCV CPU</h3>
+                        <p>Implemented RISC_V_32I cpu, group-connected and fully-connected cache(fifo, lru), branch prediction part(btb, bht). -- language: verilog & system verilog.
+                        </p>
+                        <a href="https://github.com/ChampionNan/RISCV" target="_blank">GitHub Repository </a>
+                    </li>
+                </ul>
+                <footer class="major">
+                    <ul class="actions special">
+                        <li><a href="./Summary of Research.pdf" class="button">Learn More about Bingnan Chen's Research</a></li>
+                    </ul>
+                </footer>
             </section>
             <!-- Selected Awards -->
             <section id="cta" class="main special">
@@ -319,13 +211,13 @@
                         <div class="sec_panel-heading" role="tab" id="sec_headingOne">
                             <h4 class="sec_panel-title">
                                 <a role="button" data-toggle="collapse" data-parent="#sec_accordion" href="#sec_collapseOne" aria-expanded="true" aria-controls="sec_collapseOne">
-                                    National Scholarship (Oct. 2018)
+                                    2020 Mathematical Contest in Modeling
                                 </a>
                             </h4>
                         </div>
                         <div id="sec_collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="sec_headingOne">
                             <div class="sec_panel-body">
-                                The scholarship for the top 5% students.
+                                Meritorious Winners (Top 7%~8%)
                             </div>
                         </div>
                     </div>
@@ -334,13 +226,13 @@
                         <div class="sec_panel-heading" role="tab" id="sec_headingTwo">
                             <h4 class="sec_panel-title">
                                 <a class="collapsed" role="button" data-toggle="collapse" data-parent="#sec_accordion" href="#sec_collapseTwo" aria-expanded="false" aria-controls="sec_collapseTwo">
-                                    Scholarship in The Talent Program in Computer & Information Science (2016, 2018)
+                                    Outstanding Student Scholarship(Bronze)
                                 </a>
                             </h4>
                         </div>
                         <div id="sec_collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="sec_headingTwo">
                             <div class="sec_panel-body">
-                                For outstanding students selected to the talent program of computer science.
+                                For top 20% students in USTC
                             </div>
                         </div>
                     </div>
@@ -349,13 +241,13 @@
                         <div class="sec_panel-heading" role="tab" id="sec_headingThree">
                             <h4 class="sec_panel-title">
                                 <a class="collapsed" role="button" data-toggle="collapse" data-parent="#sec_accordion" href="#sec_collapseThree" aria-expanded="false" aria-controls="sec_collapseThree">
-                                    Outstanding Student Scholarship (2016, 2017)
+                                    Outstanding Student Scholarship(Bronze)
                                 </a>
                             </h4>
                         </div>
                         <div id="sec_collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="sec_headingThree">
                             <div class="sec_panel-body">
-                                For top students in USTC.
+                                For top 20% students in USTC
                             </div>
                         </div>
                     </div>
@@ -364,28 +256,13 @@
                         <div class="sec_panel-heading" role="tab" id="sec_headingFour">
                             <h4 class="sec_panel-title">
                                 <a class="collapsed" role="button" data-toggle="collapse" data-parent="#sec_accordion" href="#sec_collapseFour" aria-expanded="false" aria-controls="sec_collapseFour">
-                                    USTC’s 60th Anniversary Celebration Activity Collection Contest Winner (Jan. 2018)
+                                    Outstanding Student Scholarship(Freshman)
                                 </a>
                             </h4>
                         </div>
                         <div id="sec_collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="sec_headingFour">
                             <div class="sec_panel-body">
-                                For Contributing students in anniversary celebration activity.
-                            </div>
-                        </div>
-                    </div>
-                    <!-- ================================================================================ -->
-                    <div class="panel">
-                        <div class="sec_panel-heading" role="tab" id="sec_headingFive">
-                            <h4 class="sec_panel-title">
-                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#sec_accordion" href="#sec_collapseFive" aria-expanded="false" aria-controls="sec_collapseFive">
-                                    Excellent Social Investigator (Jan. 2018)
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="sec_collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="sec_headingFive">
-                            <div class="sec_panel-body">
-                                For Contributing students in National Social Science Fund Project Research.
+                                For top 20% students in USTC
                             </div>
                         </div>
                     </div>
@@ -395,7 +272,7 @@
         </div>
         <!-- Footer -->
         <footer id="footer">
-            <section>
+            <section height=80%>
                 <h2>News & States</h2>
                 <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=op1cNkcct4kwkruJJGaPXvj0j5zuiK6KjT2FPIK3laU"></script>
             </section>
@@ -407,7 +284,7 @@
                     <dt>Phone</dt>
                     <dd>(+86) 189-9314-0873</dd>
                     <dt>Email</dt>
-                    <dd><a href="#">cbn990512@mail.􏰇􏰅􏰆c.ed􏰇.cn / championnan@163.com</a></dd>
+                    <dd><a href="#">cbn990512@mail.􏰇􏰅􏰆ustc.edu􏰇.cn / championnan@163.com</a></dd>
                     <dt>QQ</dt>
                     <dd><a href="#">940107412</a></dd>
                     <dt>WeChat</dt>
@@ -416,14 +293,14 @@
                     <dd><a href="#">live:.cid.81b53f37a9959358</a></dd>
                 </dl>
                 <ul class="icons">
-                    <li><a href="https://twitter.com/champion_nan" class="icon brands fa-twitter alt"><span class="label">Twitter</span></a></li>
-                    <li><a href="https://www.facebook.com/nan.champion.353" class="icon brands fa-facebook-f alt"><span class="label">Facebook</span></a></li>
-                    <li><a href="https://www.instagram.com/championnan_cbn/" class="icon brands fa-instagram alt"><span class="label">Instagram</span></a></li>
-                    <li><a href="https://github.com/ChampionNan" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
-                    <li><a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact_info%3BiSROWmgkTH6zTVzz6G4UKA%3D%3D" class="icon brands fa-dribbble alt"><span class="label">LinkedIn</span></a></li>
+                    <li><a href="https://twitter.com/champion_nan" target="_blank" class="icon brands fa-twitter alt"><span class="label">Twitter</span></a></li>
+                    <li><a href="https://www.facebook.com/nan.champion.353" target="_blank" class="icon brands fa-facebook-f alt"><span class="label">Facebook</span></a></li>
+                    <li><a href="https://www.instagram.com/championnan_cbn/" target="_blank" class="icon brands fa-instagram alt"><span class="label">Instagram</span></a></li>
+                    <li><a href="https://github.com/ChampionNan" target="_blank" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
+                    <li><a href="https://www.linkedin.com/in/bingnan-chen-09192b1b0/" target="_blank" class="icon brands fa-linkedin alt"><span class="label">LinkdeIn</span></a></li>
                 </ul>
             </section>
-            <p class="copyright">&copy; 2020 Bingnan CHEN Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+            <p class="copyright">&copy; 2020 Reference from JINGTUN ZHANG Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
         </footer>
     </div>
     <!-- Scripts -->
