@@ -13,8 +13,8 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Bingnan Chen - Database Researcher
-description: PhD student at HKUST researching database optimization algorithms
+title: Bingnan Chen
+description: PhD student at HKUST working on database area
 url: "https://championnan.github.io" # no trailing slash
 baseurl: "" # the subpath of your site, e.g. /blog
 
